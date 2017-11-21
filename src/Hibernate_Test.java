@@ -47,6 +47,7 @@ public class Hibernate_Test {
 		tx.commit();
 
 		session.close();
+        sessionFactory.close();
 
 		log.info("########## execute Hibernate_Test end ##########");
 	}
